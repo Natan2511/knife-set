@@ -1,0 +1,136 @@
+.overlay {
+  display: none;
+}
+
+ .overlay {
+    padding: 0 10px;
+    pointer-events: initial;
+    overflow-y: auto;
+  }
+  .overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  pointer-events: none;
+  z-index: 99999999999999999;
+}
+
+/* ---------------------POPUPS-------------------- */
+.popup {
+  margin: 2% auto;
+  background-color: #f0f6e5;
+  z-index: 10002;
+  top: 20%;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  pointer-events: all;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
+}
+.popup-short {
+  margin: 2% auto;
+  background-color: #f6f6f6;
+  z-index: 10002;
+  width: 770px;
+  top: 20%;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  pointer-events: all;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
+}
+.popup .popup-header {
+  text-align: center;
+  font-size: 34px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+}
+.popup-short .popup-header {
+  text-align: left;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+}
+.popup-body-title {
+  padding-bottom: 25px;
+  font-size: 25px;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  pointer-events: none;
+  z-index: 99999999999999999;
+}
+.popup .text {
+  font-size: 19px;
+  line-height: 25px;
+}
+.popup .text p {
+  padding-bottom: 22px;
+}
+.popup .btn {
+  margin-bottom: 47px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.popup-short .text {
+  font-size: 18px;
+  line-height: 25px;
+}
+.popup-short .text p {
+  padding-bottom: 22px;
+}
+.popup-short .btn {
+  margin-bottom: 33px;
+  margin-right: 22px;
+  font-weight: 100;
+  padding: 5px 12px;
+  width: 70px;
+  font-size: 20px;
+}
+.popup-short .images-soc a {
+  height: 35px;
+  width: 35px;
+}
+.popup-short .images-soc {
+  display: inline-block;
+  position: absolute;
+  bottom: 27px;
+  margin-left: 20px;
+}
+.popup-footer p {
+  font-size: 25px;
+  line-height: 31px;
+  padding-left: 15px;
+}
+.btn.btn-popup.special {
+  background: none;
+  color: #819e2c;
+}
+.popup-short .wrapper-btn {
+  margin-top: 21px;
+}
+
+.popup-header h1{
+      text-align: center;
+}
+.popup-shadow {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.77);
+  top: 0;
+  z-index: 9999999999999;
+}
+.preloader {
+  background: url("../images/preloader.gif");
+  width: 64px;
+  height: 64px;
+  margin: 20% auto auto;
+}
